@@ -667,9 +667,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myRigidbody: {fileID: 1971312488}
-  friction: {x: 0.5, y: 0}
+  friction: {x: 1, y: 0}
   speed: 10
-  forceJump: 15
+  speedRun: 13
+  forceJump: 20.67
 --- !u!50 &1971312488
 Rigidbody2D:
   serializedVersion: 4
