@@ -19,6 +19,11 @@ public class Player : MonoBehaviour
     public float animationDuration = 0.3f;
     public Ease ease = Ease.OutBack;
 
+    [Header("Animation Player")]
+    public string boolRun = "Run";
+    public string runFaster = "Faster";
+    public Animator animator;
+    public float playerSwipeDuration = .1f;
 
     private float _currentSpeed;
 
@@ -33,18 +38,41 @@ public class Player : MonoBehaviour
     {
 
         if (Input.GetKey(KeyCode.LeftShift))
+        {
             _currentSpeed = speedRun;
-        else
-            _currentSpeed = speed;
+            animator.SetBool(runFaster, true);
+        }
 
+        else 
+        {
+            _currentSpeed = speed;
+            animator.SetBool(runFaster, false);
+        }
+            
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
             myRigidbody.velocity = new Vector2(_currentSpeed, myRigidbody.velocity.y);
+            if(myRigidbody.transform.localScale.x != 1)
+            {
+                myRigidbody.transform.DOScaleX(1, playerSwipeDuration);
+            }
+            animator.SetBool(boolRun, true);
         }
         else if (Input.GetKey(KeyCode.LeftArrow))
         {
             myRigidbody.velocity = new Vector2(-_currentSpeed, myRigidbody.velocity.y);
+            if (myRigidbody.transform.localScale.x != -1)
+            {
+                myRigidbody.transform.DOScaleX(-1, playerSwipeDuration);
+            }
+            animator.SetBool(boolRun, true);
+        }
+
+        else
+        {
+            animator.SetBool(boolRun, false);
+            animator.SetBool(runFaster, false);
         }
 
         if (myRigidbody.velocity.x > 0)
@@ -62,9 +90,10 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            ;
             myRigidbody.velocity = Vector2.up * forceJump;
             myRigidbody.transform.localScale = Vector2.one;
-
+          
             DOTween.Kill(myRigidbody.transform);
 
             HandleScaleJump();
