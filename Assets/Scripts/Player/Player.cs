@@ -44,7 +44,7 @@ public class Player : MonoBehaviour
         }
             
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.D))
         {
             myRigidbody.velocity = new Vector2(_currentSpeed, myRigidbody.velocity.y);
             if(myRigidbody.transform.localScale.x != 1)
@@ -53,7 +53,7 @@ public class Player : MonoBehaviour
             }
             animator.SetBool(boolRun, true);
         }
-        else if (Input.GetKey(KeyCode.LeftArrow))
+        else if (Input.GetKey(KeyCode.A))
         {
             myRigidbody.velocity = new Vector2(-_currentSpeed, myRigidbody.velocity.y);
             if (myRigidbody.transform.localScale.x != -1)
