@@ -11,7 +11,8 @@ public class ItemCollactableBase : MonoBehaviour
     {
         if(collision.transform.CompareTag(compareTag))
         {
-            Collect();
+           
+           Collect();
         }
     }
 
@@ -22,7 +23,7 @@ public class ItemCollactableBase : MonoBehaviour
     }
 
     protected virtual void Oncollect()
-    { 
-    
+    {
+        
     }
 }

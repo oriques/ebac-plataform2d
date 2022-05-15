@@ -3,16 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using ecco.Core.Singleton;
 
+
 public class ItemManager : Singleton<ItemManager>
 {
+    
     public int coins;
 
 
     private void Start()
     {
-        Reset();
+      
+            Reset();
+      
     }
-
     private void Reset()
     {
         coins = 0;
