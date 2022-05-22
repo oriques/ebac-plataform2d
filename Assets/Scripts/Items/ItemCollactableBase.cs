@@ -5,25 +5,36 @@ using UnityEngine;
 public class ItemCollactableBase : MonoBehaviour
 {
     public string compareTag = "Player";
+    public ParticleSystem particleSystem;
+    public float timeToHide = 3;
+    public GameObject graphicItem;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.transform.CompareTag(compareTag))
+        if (collision.transform.CompareTag(compareTag))
         {
-           
-           Collect();
+
+            Collect();
         }
     }
 
-    protected virtual void Collect() 
+    protected virtual void Collect()
     {
-        gameObject.SetActive(false);
+        if(graphicItem != null) graphicItem.SetActive(false);
+        Invoke("HideObject", timeToHide);
         Oncollect();
     }
 
+    private void HideObject()
+    {
+        gameObject.SetActive(false);
+    }
+
+
+
     protected virtual void Oncollect()
     {
-        
+        if (particleSystem != null) particleSystem.Play();
     }
 }
