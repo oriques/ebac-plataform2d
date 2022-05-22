@@ -9,7 +9,9 @@ public class ItemManager : Singleton<ItemManager>
 {
     
     public SOInt coins;
+    public SOInt coinsUltra;
     public TextMeshProUGUI uiTextCoins;
+    public TextMeshProUGUI uiTextCoinsUltra;
 
 
     private void Start()
@@ -19,6 +21,7 @@ public class ItemManager : Singleton<ItemManager>
     private void Reset()
     {
         coins.value = 0;
+        coinsUltra.value = 0;
         UpdateUI();
     }
 
@@ -28,6 +31,11 @@ public class ItemManager : Singleton<ItemManager>
         UpdateUI();
     }
 
+    public void AddCoinsUltra(int amount = 1)
+    {
+        coinsUltra.value += amount;
+        UpdateUI();
+    }
     private void UpdateUI()
     {
         //UIInGameManager.UpdateTextCoins(coins.value.ToString());

@@ -12,5 +12,10 @@ public class UIInGameManager : Singleton<ItemManager>
     {
         Instance.uiTextCoins.text = s;
     }
-   
+
+    public static void UpdateTextCoinsUltra(string s)
+    {
+        Instance.uiTextCoinsUltra.text = s;
+    }
+
 }
