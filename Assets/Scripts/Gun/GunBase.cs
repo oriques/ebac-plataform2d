@@ -11,6 +11,12 @@ public class GunBase : MonoBehaviour
 
     private Coroutine _currentCoroutine;
 
+    public AudioRandomPlayAudioClips randomShoot;
+
+    private void Awake()
+    {
+        playerSideReference = GameObject.FindObjectOfType<Player>().transform;
+    }
 
     private void Update()
     {
@@ -38,6 +44,8 @@ public class GunBase : MonoBehaviour
 
     public void  Shoot()
     {
+        if (randomShoot != null) randomShoot.PlayRandom();
+
         var projectile = Instantiate(prefabProjectile);
         projectile.transform.position = positionToShoot.position;
         projectile.side = playerSideReference.transform.localScale.x;
