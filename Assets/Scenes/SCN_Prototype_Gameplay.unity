@@ -5293,14 +5293,78 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1971312491}
     m_Modifications:
+    - target: {fileID: 315110358402507563, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: audioClipList.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7743889c22ea9472a895ecd63b2bb221, type: 3}
+    - target: {fileID: 1936208918617432267, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: m_Pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1936208918617432267, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440904012700543658, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: m_Pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440904012700543658, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440904012700543658, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: rolloffMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440904012700543658, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3707515389890545525, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1971312487}
     - target: {fileID: 3926198813924656781, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: m_Pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3926198813924656781, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: ab005f59b5030495b9cbe7ccc9f6a329, type: 3}
+      objectReference: {fileID: 0}
+    - target: {fileID: 3926198813924656781, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: rolloffMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3926198813924656781, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202340345654637437, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: m_Pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202340345654637437, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378518883960764546, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: m_Pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378518883960764546, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378518883960764546, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: rolloffMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4378518883960764546, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6904249978353833979, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
       propertyPath: keycode
       value: 112
@@ -5308,6 +5372,14 @@ PrefabInstance:
     - target: {fileID: 6904249978353833979, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
       propertyPath: audioSource
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7622771827302643380, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: m_Pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7622771827302643380, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8007466312498025151, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
       propertyPath: m_RootOrder
