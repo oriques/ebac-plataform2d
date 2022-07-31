@@ -5910,11 +5910,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 3
+<<<<<<< HEAD:Assets/Art/Astronaut/Sprites/SPR_Astronaut1.psb.meta
 <<<<<<< HEAD
     spriteID: 2391f5651ee3d21409a00f09d0368977
 =======
     spriteID: 00000000000000000000000000000000
 >>>>>>> parent of 69b56d4 (Changed Pitch, Problem Continues)
+=======
+    spriteID: 786be41f06e3de845b00f37c367db4f8
+>>>>>>> parent of 382ec95 (Revert "Changed Pitch, Problem Continues"):Assets/Art/Astronaut/Sprites/SPR_Astronaut.psb.meta
     layerID: 23
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -5924,11 +5928,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: 4
+<<<<<<< HEAD:Assets/Art/Astronaut/Sprites/SPR_Astronaut1.psb.meta
 <<<<<<< HEAD
     spriteID: 5290dc30e67b5234f8716eca00db4660
 =======
     spriteID: 00000000000000000000000000000000
 >>>>>>> parent of 69b56d4 (Changed Pitch, Problem Continues)
+=======
+    spriteID: 03a8c9bf3d1e110479df4c33e63752fb
+>>>>>>> parent of 382ec95 (Revert "Changed Pitch, Problem Continues"):Assets/Art/Astronaut/Sprites/SPR_Astronaut.psb.meta
     layerID: 22
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -5938,11 +5946,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: 4
+<<<<<<< HEAD:Assets/Art/Astronaut/Sprites/SPR_Astronaut1.psb.meta
 <<<<<<< HEAD
     spriteID: 60e5129a6244c704eb83d4498e263f86
 =======
     spriteID: 00000000000000000000000000000000
 >>>>>>> parent of 69b56d4 (Changed Pitch, Problem Continues)
+=======
+    spriteID: a043ea030b9dfd541838dd09e6c2fbcf
+>>>>>>> parent of 382ec95 (Revert "Changed Pitch, Problem Continues"):Assets/Art/Astronaut/Sprites/SPR_Astronaut.psb.meta
     layerID: 21
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -5952,11 +5964,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: 3
+<<<<<<< HEAD:Assets/Art/Astronaut/Sprites/SPR_Astronaut1.psb.meta
 <<<<<<< HEAD
     spriteID: bc859655dc2aa7949bc369769b67ff14
 =======
     spriteID: 00000000000000000000000000000000
 >>>>>>> parent of 69b56d4 (Changed Pitch, Problem Continues)
+=======
+    spriteID: 67389dd60b21a2a4daedf35b660841d2
+>>>>>>> parent of 382ec95 (Revert "Changed Pitch, Problem Continues"):Assets/Art/Astronaut/Sprites/SPR_Astronaut.psb.meta
     layerID: 19
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -5966,11 +5982,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: 3
+<<<<<<< HEAD:Assets/Art/Astronaut/Sprites/SPR_Astronaut1.psb.meta
 <<<<<<< HEAD
     spriteID: dbfabe864f2e7f64db92ab627d6e096b
 =======
     spriteID: 00000000000000000000000000000000
 >>>>>>> parent of 69b56d4 (Changed Pitch, Problem Continues)
+=======
+    spriteID: 6a8cc147ef31cc443914e9c61fe089ee
+>>>>>>> parent of 382ec95 (Revert "Changed Pitch, Problem Continues"):Assets/Art/Astronaut/Sprites/SPR_Astronaut.psb.meta
     layerID: 18
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -5980,11 +6000,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: 3
+<<<<<<< HEAD:Assets/Art/Astronaut/Sprites/SPR_Astronaut1.psb.meta
 <<<<<<< HEAD
     spriteID: 2be0f868b4862dc4c903f35620c448fd
 =======
     spriteID: 00000000000000000000000000000000
 >>>>>>> parent of 69b56d4 (Changed Pitch, Problem Continues)
+=======
+    spriteID: 1dedc33f2ac8dd842bf0301d8934b336
+>>>>>>> parent of 382ec95 (Revert "Changed Pitch, Problem Continues"):Assets/Art/Astronaut/Sprites/SPR_Astronaut.psb.meta
     layerID: 17
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -5994,11 +6018,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 3
+<<<<<<< HEAD:Assets/Art/Astronaut/Sprites/SPR_Astronaut1.psb.meta
 <<<<<<< HEAD
     spriteID: 515f7fb601e938b46a9c0940919b7ec7
 =======
     spriteID: 00000000000000000000000000000000
 >>>>>>> parent of 69b56d4 (Changed Pitch, Problem Continues)
+=======
+    spriteID: 96d521a67888dc44d8b7a704b35939e7
+>>>>>>> parent of 382ec95 (Revert "Changed Pitch, Problem Continues"):Assets/Art/Astronaut/Sprites/SPR_Astronaut.psb.meta
     layerID: 16
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -6008,11 +6036,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: 10
+<<<<<<< HEAD:Assets/Art/Astronaut/Sprites/SPR_Astronaut1.psb.meta
 <<<<<<< HEAD
     spriteID: 256c159411ef7884aab99c1ac950ac03
 =======
     spriteID: 00000000000000000000000000000000
 >>>>>>> parent of 69b56d4 (Changed Pitch, Problem Continues)
+=======
+    spriteID: 196cecd58e13e9445b612d7e4f7343ba
+>>>>>>> parent of 382ec95 (Revert "Changed Pitch, Problem Continues"):Assets/Art/Astronaut/Sprites/SPR_Astronaut.psb.meta
     layerID: 15
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -6022,11 +6054,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: 10
+<<<<<<< HEAD:Assets/Art/Astronaut/Sprites/SPR_Astronaut1.psb.meta
 <<<<<<< HEAD
     spriteID: abb9f0f79d19adc4eb03610ab8f5903f
 =======
     spriteID: 00000000000000000000000000000000
 >>>>>>> parent of 69b56d4 (Changed Pitch, Problem Continues)
+=======
+    spriteID: a7f69fff83a1d9b49b0891af9a68a32c
+>>>>>>> parent of 382ec95 (Revert "Changed Pitch, Problem Continues"):Assets/Art/Astronaut/Sprites/SPR_Astronaut.psb.meta
     layerID: 14
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -6036,11 +6072,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: 10
+<<<<<<< HEAD:Assets/Art/Astronaut/Sprites/SPR_Astronaut1.psb.meta
 <<<<<<< HEAD
     spriteID: a18a46386cf3ea54893042b7fa572412
 =======
     spriteID: 00000000000000000000000000000000
 >>>>>>> parent of 69b56d4 (Changed Pitch, Problem Continues)
+=======
+    spriteID: 1f1aa67f4fc3e2842b7a0c2f3ab8865f
+>>>>>>> parent of 382ec95 (Revert "Changed Pitch, Problem Continues"):Assets/Art/Astronaut/Sprites/SPR_Astronaut.psb.meta
     layerID: 13
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -6050,11 +6090,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 0
     parentIndex: 10
+<<<<<<< HEAD:Assets/Art/Astronaut/Sprites/SPR_Astronaut1.psb.meta
 <<<<<<< HEAD
     spriteID: 43bdbfe5459e759418f4a331f6bc025f
 =======
     spriteID: 00000000000000000000000000000000
 >>>>>>> parent of 69b56d4 (Changed Pitch, Problem Continues)
+=======
+    spriteID: 2184fbfebc5dc4242beea7856651753b
+>>>>>>> parent of 382ec95 (Revert "Changed Pitch, Problem Continues"):Assets/Art/Astronaut/Sprites/SPR_Astronaut.psb.meta
     layerID: 12
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
