@@ -7047,6 +7047,27 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1971312487}
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of 69b56d4 (Changed Pitch, Problem Continues)
+    - target: {fileID: 3926198813924656781, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ab005f59b5030495b9cbe7ccc9f6a329, type: 3}
+    - target: {fileID: 6904249978353833979, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: keycode
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904249978353833979, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 69b56d4 (Changed Pitch, Problem Continues)
+=======
+>>>>>>> parent of 69b56d4 (Changed Pitch, Problem Continues)
     - target: {fileID: 8007466312498025151, guid: 1e361018b6dbb2143884500f6de1ab9e, type: 3}
       propertyPath: m_RootOrder
       value: 0
